@@ -72,7 +72,9 @@ program
         }
         // Show a success message.
         console.log('Successfully added ' + license + ' license to ' + generated_license + ' file.');
-    })
+        //end
+        process.exit(0);
+    });
   });
 
 /**
@@ -98,6 +100,9 @@ program
 
     // Show the license file.
     console.log(fs.readFileSync(license_file, 'utf8'));
+
+    //end
+    process.exit(0);
   });
 
 // Options.
