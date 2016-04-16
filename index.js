@@ -138,4 +138,6 @@ program.parse(process.argv);
 
 if (!program.args.length) {
   program.help();
+}else{
+  console.log('Unknown command. Use `license-generator --help` to learn more about commands available.');
 }
