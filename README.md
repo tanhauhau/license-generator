@@ -1,15 +1,20 @@
 License generator
 =================
 
+> ***Forked from [license-generator](https://github.com/arshad/license-generator).***
+> 
+> The difference between the original module and this fork is in a [pending pull request](https://github.com/arshad/license-generator/pull/15) in which I feel it useful to me, if the PR is merged, by all means use the original awesome module from arshad.
+
 Generates a license for your open source project. See [choosealicense.com](http://choosealicense.com).
 
 ![license-generator](https://cloud.githubusercontent.com/assets/124599/6750330/8b338cba-cf12-11e4-81c5-59af8c39787d.gif)
 
 Installation
 --------------
-
-    npm install license-generator
-
+~~~bash
+npm install license-generator #From origin
+npm install tanhauhau/license-generator #From this fork
+~~~
 Usage
 --------------
 
@@ -30,7 +35,7 @@ Options
     -e, --extension The file extension for the license. Example: txt. Defaults to no extension.
 
 
-Or using API
+Or using API *[Pending PR #15](https://github.com/arshad/license-generator/pull/15)*
 --------------
 ```javascript
 var license = require('license-generator');
